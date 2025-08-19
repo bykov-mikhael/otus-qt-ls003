@@ -14,5 +14,5 @@ public:
   virtual QVariant data(const QModelIndex &index, int role) const override;
   virtual Qt::ItemFlags flags(const QModelIndex &index) const override;
 
-private:
+  void initializeModel();
 };

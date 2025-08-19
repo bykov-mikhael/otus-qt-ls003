@@ -18,7 +18,7 @@ MainWindow::MainWindow(QWidget *parent)
   dbManager->createConnection(sDBName, dbType::QSQLITE, sUSR, sPWD, sHost,
                               iPort);
 
-  dbManager->initializeModel(model);
+  model->initializeModel();
 
   ui->tableView->setModel(model);
 

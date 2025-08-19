@@ -318,7 +318,6 @@ D:/doc/qt/otus-qt-ls003/databasemanager.hpp
  mdp:D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autogen/moc_predefs.h
  mdp:D:/doc/qt/otus-qt-ls003/databasemanager.hpp
  mdp:D:/doc/qt/otus-qt-ls003/header.hpp
-D:/doc/qt/otus-qt-ls003/header.hpp
 D:/doc/qt/otus-qt-ls003/mainwindow.hpp
  mmc:Q_OBJECT
  mdp:D:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel
@@ -642,6 +641,7 @@ D:/doc/qt/otus-qt-ls003/mainwindow.hpp
  mdp:D:/doc/qt/otus-qt-ls003/header.hpp
  mdp:D:/doc/qt/otus-qt-ls003/mainwindow.hpp
  mdp:D:/doc/qt/otus-qt-ls003/sportmenmodel.hpp
+D:/doc/qt/otus-qt-ls003/header.hpp
 D:/doc/qt/otus-qt-ls003/sportmenmodel.hpp
  mmc:Q_OBJECT
  mdp:D:/Qt/5.15.2/mingw81_64/include/QtCore/QObject
@@ -863,7 +863,7 @@ D:/doc/qt/otus-qt-ls003/sportmenmodel.hpp
  mdp:D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autogen/moc_predefs.h
  mdp:D:/doc/qt/otus-qt-ls003/sportmenmodel.hpp
 D:/doc/qt/otus-qt-ls003/databasemanager.cpp
-D:/doc/qt/otus-qt-ls003/main.cpp
 D:/doc/qt/otus-qt-ls003/mainwindow.cpp
  uic:./ui_mainwindow.h
+D:/doc/qt/otus-qt-ls003/main.cpp
 D:/doc/qt/otus-qt-ls003/sportmenmodel.cpp

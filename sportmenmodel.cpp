@@ -28,7 +28,22 @@ Qt::ItemFlags SportmenModel::flags(const QModelIndex &index) const {
 
   // return flags;
 
-  return Qt::ItemIsEnabled | Qt::ItemIsSelectable | Qt::ItemIsEditable;
+  // return Qt::ItemIsEnabled | Qt::ItemIsSelectable | Qt::ItemIsEditable;
+}
+
+void SportmenModel::initializeModel() {
+  this->setQuery("select * from sportmen");
+  // "       GYPS.GYP_NUMBER from SPORTMEN"
+  // "       INNER JOIN GYPS on SPORTMEN.GYP_ID = GYPS.GYP_ID");
+
+  this->setHeaderData(0, Qt::Horizontal, "id");
+  this->setHeaderData(1, Qt::Horizontal, "Имя");
+  this->setHeaderData(2, Qt::Horizontal, "Отчество");
+  this->setHeaderData(3, Qt::Horizontal, "Фамилия");
+  this->setHeaderData(4, Qt::Horizontal, "№ паспорта");
+  this->setHeaderData(5, Qt::Horizontal, "Дата выдачи");
+  this->setHeaderData(6, Qt::Horizontal, "Дата рождения");
+  this->setHeaderData(7, Qt::Horizontal, "Гып id");
 }
 
 QVariant SportmenModel::data(const QModelIndex &index, int role) const {
