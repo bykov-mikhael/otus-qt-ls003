@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rc/ico/db_off.png</file>
+        <file>rc/ico/db_on.png</file>
+    </qresource>
+</RCC>
