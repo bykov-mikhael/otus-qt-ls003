@@ -15,13 +15,21 @@ void DatabaseManager::createConnection(const QString &dbName,
                                        const QString &pwd, const QString &host,
                                        const int port) {
 
-  QSqlDatabase _db = QSqlDatabase::addDatabase("QSQLITE");
-  _db.setDatabaseName(dbName);
+  switch (dbType) {
+  case dbType::QSQLITE:
+    _db = QSqlDatabase::addDatabase("QSQLITE");
+    _db.setDatabaseName(dbName);
 
-  if (!_db.open()) {
-    QMessageBox::critical(nullptr, QObject::tr("Can't open database: "),
-                          _db.lastError().text(), QMessageBox::Cancel);
-    return;
+    if (!_db.open()) {
+      QMessageBox::critical(nullptr, QObject::tr("Can't open database: "),
+                            _db.lastError().text(), QMessageBox::Cancel);
+      return;
+    }
+    break;
+  default:
+    QMessageBox::information(nullptr, "Other diver", "Incorrect driber name",
+                             QMessageBox::Ok);
+    break;
   }
 
   QMessageBox::information(

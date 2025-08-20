@@ -17,7 +17,7 @@ public:
                         const QString &host, const int port);
 
 private:
-  // QSqlDatabase _db;
+  QSqlDatabase _db;
   QString _dbName;
   QString _dbType;
   QString _usr;

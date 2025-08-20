@@ -12,11 +12,14 @@ MainWindow::MainWindow(QWidget *parent)
 
   ui->setupUi(this);
 
-  QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-  db.setDatabaseName(sDBName);
-  db.open();
-  // dbManager->createConnection(sDBName, dbType::QSQLITE, sUSR, sPWD, sHost,
-  //                             iPort);
+  // QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
+  // db.setDatabaseName(sDBName);
+  // db.open();
+
+  dbManager = new DatabaseManager();
+
+  dbManager->createConnection(sDBName, dbType::QSQLITE, sUSR, sPWD, sHost,
+                              iPort);
 
   model = new SportmenModel();
 
