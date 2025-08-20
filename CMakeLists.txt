@@ -37,6 +37,7 @@ find_package(Qt5 REQUIRED COMPONENTS Core)
 find_package(Qt5 REQUIRED COMPONENTS Core)
 find_package(Qt5 REQUIRED COMPONENTS Core)
 find_package(Qt5 REQUIRED COMPONENTS Core)
+find_package(Qt5 REQUIRED COMPONENTS Core)
 
 if(ANDROID)
   add_library(hw-003 SHARED
@@ -57,12 +58,9 @@ else()
     sportmenmodel.hpp sportmenmodel.cpp
     databasemanager.hpp databasemanager.cpp
     sportmenmodel.hpp sportmenmodel.cpp
+    gypdelegate.hpp gypdelegate.cpp
 
   )
 endif()
 
 target_link_libraries(hw-003 PRIVATE Qt5::Widgets Qt5::Sql)
-target_link_libraries(hw-003 PRIVATE Qt5::Core)
-target_link_libraries(hw-003 PRIVATE Qt5::Core)
-target_link_libraries(hw-003 PRIVATE Qt5::Core)
-target_link_libraries(hw-003 PRIVATE Qt5::Core)

@@ -1,5 +1,7 @@
 D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autogen/EWIEGA46WW/moc_sportmenmodel.cpp: D:/doc/qt/otus-qt-ls003/sportmenmodel.hpp \
   D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autogen/moc_predefs.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/QDebug \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/QObject \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
@@ -14,16 +16,25 @@ D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autoge
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qconfig.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qdebug.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qglobal.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qglobalstatic.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qhash.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qitemselectionmodel.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qiterator.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qline.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qlist.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qlocale.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qlogging.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qmap.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qmargins.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qmetaobject.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qnumeric.h \
@@ -32,10 +43,18 @@ D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autoge
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qobjectdefs.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qobjectdefs_impl.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qpair.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qpoint.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qprocessordetection.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qrect.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qregexp.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qregularexpression.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qset.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qsize.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qstring.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qstringlist.h \
@@ -45,26 +64,97 @@ D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autoge
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qsysinfo.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qtextstream.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qvariant.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/QPainter \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/QPalette \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qbrush.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qcolor.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qcursor.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qfont.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qfontinfo.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qfontmetrics.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qicon.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qimage.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qmatrix.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qpaintdevice.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qpainter.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qpalette.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qpen.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qpixelformat.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qpixmap.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qpolygon.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qregion.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qrgb.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qrgba64.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qtextoption.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qtransform.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qvalidator.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtSql/QSqlDatabase \
+  D:/Qt/5.15.2/mingw81_64/include/QtSql/QSqlError \
+  D:/Qt/5.15.2/mingw81_64/include/QtSql/QSqlQuery \
   D:/Qt/5.15.2/mingw81_64/include/QtSql/QSqlQueryModel \
+  D:/Qt/5.15.2/mingw81_64/include/QtSql/QSqlRecord \
+  D:/Qt/5.15.2/mingw81_64/include/QtSql/QSqlRelationalDelegate \
+  D:/Qt/5.15.2/mingw81_64/include/QtSql/QSqlRelationalTableModel \
+  D:/Qt/5.15.2/mingw81_64/include/QtSql/QSqlTableModel \
   D:/Qt/5.15.2/mingw81_64/include/QtSql/qsqldatabase.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtSql/qsqldriver.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtSql/qsqlerror.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtSql/qsqlquery.h \
   D:/Qt/5.15.2/mingw81_64/include/QtSql/qsqlquerymodel.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtSql/qsqlrecord.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtSql/qsqlrelationaldelegate.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtSql/qsqlrelationaltablemodel.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtSql/qsqltablemodel.h \
   D:/Qt/5.15.2/mingw81_64/include/QtSql/qtsql-config.h \
   D:/Qt/5.15.2/mingw81_64/include/QtSql/qtsqlglobal.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/QLabel \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractitemdelegate.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractitemview.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractslider.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractspinbox.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qcombobox.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qframe.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qitemdelegate.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlabel.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlistview.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qrubberband.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qslider.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qstyle.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qstyleoption.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtabbar.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/atomic \
+  D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocated_ptr.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
+  D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
+  D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
@@ -102,6 +192,9 @@ D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autoge
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h \
+  D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr.h \
+  D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_atomic.h \
+  D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_base.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
@@ -118,6 +211,7 @@ D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autoge
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
+  D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_raw_storage_iter.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h \
@@ -129,6 +223,8 @@ D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autoge
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/string_view.tcc \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
+  D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unique_ptr.h \
+  D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
@@ -143,6 +239,7 @@ D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autoge
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h \
+  D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/concurrence.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
@@ -156,6 +253,7 @@ D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autoge
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/list \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/map \
+  D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/memory \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/optional \
@@ -183,6 +281,7 @@ D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autoge
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
   D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
+  D:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
   D:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
   D:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
   D:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_off_t.h \
@@ -215,4 +314,5 @@ D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autoge
   D:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/sys/types.h \
   D:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
   D:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h \
-  D:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h
+  D:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
+  D:/doc/qt/otus-qt-ls003/header.hpp

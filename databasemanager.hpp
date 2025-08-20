@@ -16,10 +16,8 @@ public:
                         const QString &usr, const QString &pwd,
                         const QString &host, const int port);
 
-  void initializeModel(QSqlQueryModel *model);
-
 private:
-  QSqlDatabase _db;
+  // QSqlDatabase _db;
   QString _dbName;
   QString _dbType;
   QString _usr;

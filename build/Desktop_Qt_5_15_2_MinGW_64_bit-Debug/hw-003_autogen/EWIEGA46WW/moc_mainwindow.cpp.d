@@ -99,6 +99,7 @@ D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autoge
   D:/Qt/5.15.2/mingw81_64/include/QtGui/qvalidator.h \
   D:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
   D:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtSql/QSqlDatabase \
   D:/Qt/5.15.2/mingw81_64/include/QtSql/QSqlError \
   D:/Qt/5.15.2/mingw81_64/include/QtSql/QSqlQuery \
   D:/Qt/5.15.2/mingw81_64/include/QtSql/QSqlQueryModel \

@@ -1,10 +1,10 @@
 #include "./ui_mainwindow.h"
 #include "mainwindow.hpp"
 
-const QString sDBName = "./club.db";
+const QString sDBName = "./db/club.db";
 const QString sUSR = "usr";
 const QString sPWD = "P@$$w0rd";
-const QString sHost = "localhost";
+const QString sHost = "127.0.0.1";
 const int iPort = 502;
 
 MainWindow::MainWindow(QWidget *parent)
@@ -12,11 +12,13 @@ MainWindow::MainWindow(QWidget *parent)
 
   ui->setupUi(this);
 
-  dbManager = new DatabaseManager();
-  model = new SportmenModel();
+  QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
+  db.setDatabaseName(sDBName);
+  db.open();
+  // dbManager->createConnection(sDBName, dbType::QSQLITE, sUSR, sPWD, sHost,
+  //                             iPort);
 
-  dbManager->createConnection(sDBName, dbType::QSQLITE, sUSR, sPWD, sHost,
-                              iPort);
+  model = new SportmenModel();
 
   model->initializeModel();
 
