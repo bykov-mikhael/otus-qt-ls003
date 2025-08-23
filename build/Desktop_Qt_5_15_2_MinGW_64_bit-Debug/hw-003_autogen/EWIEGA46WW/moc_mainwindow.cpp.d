@@ -1,6 +1,7 @@
 D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/doc/qt/otus-qt-ls003/mainwindow.hpp \
   D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autogen/moc_predefs.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/QDate \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/QDebug \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/QObject \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
@@ -18,6 +19,7 @@ D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/hw-003_autoge
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
+  D:/Qt/5.15.2/mingw81_64/include/QtCore/qdatetime.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qdebug.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h \
   D:/Qt/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \

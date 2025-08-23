@@ -1,6 +1,7 @@
 #pragma once
 
 #include <QAbstractTableModel>
+#include <QDate>
 #include <QDebug>
 #include <QLabel>
 #include <QMessageBox>

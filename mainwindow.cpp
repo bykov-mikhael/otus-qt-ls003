@@ -1,4 +1,5 @@
 #include "./ui_mainwindow.h"
+#include "gypdelegate.hpp"
 #include "mainwindow.hpp"
 
 const QString sDBName = "./db/club.db";
@@ -12,10 +13,6 @@ MainWindow::MainWindow(QWidget *parent)
 
   ui->setupUi(this);
 
-  // QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-  // db.setDatabaseName(sDBName);
-  // db.open();
-
   dbManager = new DatabaseManager();
 
   dbManager->createConnection(sDBName, dbType::QSQLITE, sUSR, sPWD, sHost,
@@ -23,9 +20,17 @@ MainWindow::MainWindow(QWidget *parent)
 
   model = new SportmenModel();
 
+  GypDelegate *gypDelegate = new GypDelegate();
+
   model->initializeModel();
 
   ui->tableView->setModel(model);
+
+  // Назначаем кастомный делеган на поле "гып"
+  ui->tableView->setItemDelegateForColumn(6, gypDelegate);
+
+  ui->tableView->resizeColumnsToContents();
+  ui->tableView->resizeRowsToContents();
 
   ui->tableView->show();
 }
