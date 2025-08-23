@@ -1,5 +1,0 @@
-D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/hw-003.dir
-D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
-D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/hw-003_autogen_timestamp_deps.dir
-D:/doc/qt/otus-qt-ls003/build/Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/hw-003_autogen.dir
