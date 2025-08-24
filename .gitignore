@@ -14,7 +14,6 @@
 object_script.*.Release
 object_script.*.Debug
 *_plugin_import.cpp
-/build
 /.qmake.cache
 /.qmake.stash
 *.pro.user
@@ -53,3 +52,10 @@ compile_commands.json
 *creator.user*
 
 *_qmlcache.qrc
+
+# CMake build directories
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile

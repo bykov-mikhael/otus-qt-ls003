@@ -17,4 +17,9 @@ public:
   // QAbstractItemModel interface
 public:
   virtual QVariant data(const QModelIndex &index, int role) const override;
+
+  // QAbstractItemModel interface
+public:
+  virtual bool setData(const QModelIndex &index, const QVariant &value,
+                       int role) override;
 };

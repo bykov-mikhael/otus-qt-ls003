@@ -36,7 +36,15 @@
     <addaction name="aConnectDB"/>
     <addaction name="aSelectSPORTMEN"/>
    </widget>
+   <widget class="QMenu" name="menuSportmen">
+    <property name="title">
+     <string>Sportmen</string>
+    </property>
+    <addaction name="aAddRecord"/>
+    <addaction name="aUpdRecord"/>
+   </widget>
    <addaction name="menuFile"/>
+   <addaction name="menuSportmen"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="aConnectDB">
@@ -47,6 +55,16 @@
   <action name="aSelectSPORTMEN">
    <property name="text">
     <string>Показать всех спортсменов</string>
+   </property>
+  </action>
+  <action name="aAddRecord">
+   <property name="text">
+    <string>Add record()</string>
+   </property>
+  </action>
+  <action name="aUpdRecord">
+   <property name="text">
+    <string>Upd record()</string>
    </property>
   </action>
  </widget>

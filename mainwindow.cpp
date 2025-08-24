@@ -13,26 +13,29 @@ MainWindow::MainWindow(QWidget *parent)
 
   ui->setupUi(this);
 
-  dbManager = new DatabaseManager();
+  connect(ui->aConnectDB, &QAction::triggered, this, [this]() {
+    dbManager = new DatabaseManager();
 
-  dbManager->createConnection(sDBName, dbType::QSQLITE, sUSR, sPWD, sHost,
-                              iPort);
+    dbManager->createConnection(sDBName, dbType::QSQLITE, sUSR, sPWD, sHost,
+                                iPort);
 
-  model = new SportmenModel();
+    model = new SportmenModel();
 
-  GypDelegate *gypDelegate = new GypDelegate();
+    GypDelegate *gypDelegate = new GypDelegate();
 
-  model->initializeModel();
+    model->initializeModel();
 
-  ui->tableView->setModel(model);
+    ui->tableView->setModel(model);
 
-  // Назначаем кастомный делеган на поле "гып"
-  ui->tableView->setItemDelegateForColumn(6, gypDelegate);
+    // Назначаем кастомный делеган на поле "гып"
+    ui->tableView->setItemDelegateForColumn(7, gypDelegate);
+    ui->tableView->setItemDelegate(new QSqlRelationalDelegate(ui->tableView));
 
-  ui->tableView->resizeColumnsToContents();
-  ui->tableView->resizeRowsToContents();
+    ui->tableView->resizeColumnsToContents();
+    ui->tableView->resizeRowsToContents();
 
-  ui->tableView->show();
+    ui->tableView->show();
+  });
 }
 
 MainWindow::~MainWindow() { delete ui; }
