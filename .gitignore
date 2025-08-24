@@ -54,7 +54,7 @@ compile_commands.json
 *_qmlcache.qrc
 
 # CMake build directories
-build/
+build/*
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
