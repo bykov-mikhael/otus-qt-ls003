@@ -34,17 +34,8 @@
      <string>Database</string>
     </property>
     <addaction name="aConnectDB"/>
-    <addaction name="aSelectSPORTMEN"/>
-   </widget>
-   <widget class="QMenu" name="menuSportmen">
-    <property name="title">
-     <string>Sportmen</string>
-    </property>
-    <addaction name="aAddRecord"/>
-    <addaction name="aUpdRecord"/>
    </widget>
    <addaction name="menuFile"/>
-   <addaction name="menuSportmen"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="aConnectDB">

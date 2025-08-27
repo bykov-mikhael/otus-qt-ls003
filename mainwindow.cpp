@@ -29,7 +29,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Назначаем кастомный делеган на поле "гып"
     ui->tableView->setItemDelegateForColumn(7, gypDelegate);
-    ui->tableView->setItemDelegate(new QSqlRelationalDelegate(ui->tableView));
+    ui->tableView->setItemDelegate(
+        new QSqlRelationalDelegate(ui->tableView)); //???
 
     ui->tableView->resizeColumnsToContents();
     ui->tableView->resizeRowsToContents();
